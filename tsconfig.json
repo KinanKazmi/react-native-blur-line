@@ -1,0 +1,16 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true
+  },
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "@types"
+  ],
+  "exclude": ["**/node_modules", "**/Pods"]
+}

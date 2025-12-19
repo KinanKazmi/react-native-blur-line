@@ -1,0 +1,32 @@
+{
+  "name": "react-native-blur-line",
+  "version": "0.1.0",
+  "description": "A lightweight gradient blur line for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "19.1.1",
+    "react-native": "0.82.0",
+    "react-native-linear-gradient": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@react-native/typescript-config": "^0.82.0"
+  },
+  "keywords": [
+    "react-native",
+    "blur",
+    "gradient",
+    "linear-gradient"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs"
+}
