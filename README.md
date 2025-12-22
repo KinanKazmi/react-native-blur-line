@@ -8,4 +8,4 @@ First, ensure you have `react-native-linear-gradient` installed in your project.
 
 ```bash
 yarn add react-native-linear-gradient
-yarn add react-native-blur-line@[https://github.com/KinanKazmi/react-native-blur-line.git](https://github.com/KinanKazmi/react-native-blur-line.git)
+yarn add react-native-blur-line@https://github.com/KinanKazmi/react-native-blur-line.git
