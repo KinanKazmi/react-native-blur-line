@@ -1,2 +1,4 @@
-export { default as BlurLine } from "./BlurLine";
+import BlurLine from "./BlurLine";
 export type { BlurLineProps } from "./BlurLine";
+
+export default BlurLine;
