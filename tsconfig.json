@@ -1,16 +1,18 @@
 {
-  "extends": "@react-native/typescript-config",
   "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "declaration": true,
     "outDir": "dist",
     "rootDir": "src",
-    "declaration": true
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-native"
   },
-  "include": [
-    "src",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "@types"
-  ],
-  "exclude": ["**/node_modules", "**/Pods"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
