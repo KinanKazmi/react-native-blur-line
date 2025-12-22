@@ -33,5 +33,6 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
