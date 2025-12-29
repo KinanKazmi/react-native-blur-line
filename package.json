@@ -1,6 +1,10 @@
 {
   "name": "react-native-blur-line",
-  "version": "0.1.11",
+  "version": "0.1.12",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KinanKazmi/react-native-blur-line.git"
+  },
   "description": "A lightweight gradient blur line for React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
