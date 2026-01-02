@@ -4,36 +4,67 @@ A lightweight, customizable gradient blur line for React Native. Perfect for cre
 
 ---
 
-## 🛠 Installation
+## Screenshots
+
+<p align="center">
+  <img src="./assets/blurLineScreenshot1.png" width="280" />
+  <img src="./assets/blurLineScreenshot2.png" width="280" />
+</p>
+
+<p align="center">
+  <img src="./assets/blurLineScreenshot3.png" width="280" />
+</p>
+
+## Installation
 
 This package requires `react-native-linear-gradient` as a peer dependency.
 
 ### 1. Install Peer Dependency
-You **must** follow the **[Official Installation Guide](https://www.npmjs.com/package/react-native-linear-gradient)** for `react-native-linear-gradient` first. Since it contains native code, ensure you run `pod install` for iOS after installing it.
+
+You **must** follow the **[Official Installation Guide](https://www.npmjs.com/package/react-native-linear-gradient)** for `react-native-linear-gradient` first.  
+Since it contains native code, ensure you run `pod install` for iOS after installing it.
 
 ### 2. Install this library
+
 ```bash
 # Using yarn
 yarn add react-native-blur-line
 
 # Using npm
 npm install react-native-blur-line
+```
 
 ## Usage
 
-```bash
+```tsx
 
-  <BlurLine />
-  <FlatList
-    ...
-  />
-  <BlurLine bottom />
+import { BlurLine } from 'react-native-blur-line';
 
+...
+
+
+
+<BlurLine />
+
+<FlatList
   ...
+/>
 
-  <BlurLine rgbaColor={Colors.primary} />
-    <ScrollView>
-      ...
-    </ScrollView>
-  <BlurLine bottom rgbaColor={'rgba(0, 0, 0, 1)'} />
+<BlurLine bottom />
+
+<BlurLine rgbaColor={Colors.primary} />
+
+<ScrollView>
+  ...
+</ScrollView>
+
+<BlurLine bottom rgbaColor="rgba(0, 0, 0, 1)" />
 ```
+
+## Props
+
+| Prop      | Type    | Default Value         | Description                                                                                  |
+|-----------|---------|-----------------------|----------------------------------------------------------------------------------------------|
+| bottom    | boolean | false                 | If true, the gradient direction is inverted (fades out upwards) for the bottom of the screen |
+| rgbaColor | string  | "rgba(255,255,255,1)" | The starting color of the blur. Should be the same as your background color.               |
+| style     | ViewStyle | { width: '100%', height: 10, zIndex: 1 } with top: 10 or if bottom prop is true, bottom: 10 | Basically to override existing style and customize its usage as you like. |
