@@ -74,3 +74,14 @@ import BlurLine from 'react-native-blur-line';
 | horizontal | boolean | false                                                                                        | If true, the blur line will be drawn for a horizontal list/view |
 | color | string    | "rgba(255,255,255,1)"                                                                       | The starting color of the blur. Should be the same as your background color.                 |
 | style     | ViewStyle | { width: '100%', height: 10, zIndex: 1 } with top: 10 or if bottom prop is true, bottom: 10 | Basically to override existing style and customize its usage as you like.                    |
+
+
+## Color Format Support
+
+```tsx
+<BlurLine color="#000" />
+<BlurLine color="#FF8800" />
+<BlurLine color="#FF880080" />
+<BlurLine color="rgb(255, 0, 0)" />
+<BlurLine color="rgba(0, 0, 0, 1)" />
+```
