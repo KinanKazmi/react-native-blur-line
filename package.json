@@ -1,6 +1,6 @@
 {
   "name": "react-native-blur-line",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "repository": {
     "type": "git",
     "url": "https://github.com/KinanKazmi/react-native-blur-line.git"
@@ -23,6 +23,7 @@
     "react-native-linear-gradient": "^2.0.0"
   },
   "devDependencies": {
+    "@types/add": "^2",
     "@types/react": "^18.0.0",
     "react-native": "*",
     "react-native-linear-gradient": "^2.8.3",
@@ -37,5 +38,10 @@
     "gradient"
   ],
   "license": "MIT",
-  "packageManager": "yarn@4.12.0"
+  "packageManager": "yarn@4.12.0",
+  "dependencies": {
+    "add": "^2.0.6",
+    "hex-to-rgba": "^2.0.1",
+    "yarn": "^1.22.22"
+  }
 }

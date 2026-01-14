@@ -28,11 +28,15 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/add", "npm:2.0.3"],\
           ["@types/react", "npm:18.3.27"],\
+          ["add", "npm:2.0.6"],\
+          ["hex-to-rgba", "npm:2.0.1"],\
           ["react-native", "virtual:24eb5824dce2e6f960c50a5d98ee8ca4afd97a48b00e71df53e110c83bd9ad5ea60586d8a1d7b83349777f4ab39a954622a64dd7b1e83b4a0a6db30133dc5c1c#npm:0.83.1"],\
           ["react-native-blur-line", "workspace:."],\
           ["react-native-linear-gradient", "virtual:24eb5824dce2e6f960c50a5d98ee8ca4afd97a48b00e71df53e110c83bd9ad5ea60586d8a1d7b83349777f4ab39a954622a64dd7b1e83b4a0a6db30133dc5c1c#npm:2.8.3"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
+          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
+          ["yarn", "npm:1.22.22"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1033,6 +1037,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/add", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-add-npm-2.0.3-965be1f3d8-10c0.zip/node_modules/@types/add/",\
+        "packageDependencies": [\
+          ["@types/add", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/babel__core", [\
       ["npm:7.20.5", {\
         "packageLocation": "../../.yarn/berry/cache/@types-babel__core-npm-7.20.5-4d95f75eab-10c0.zip/node_modules/@types/babel__core/",\
@@ -1210,6 +1223,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/acorn-npm-8.15.0-0764cf600e-10c0.zip/node_modules/acorn/",\
         "packageDependencies": [\
           ["acorn", "npm:8.15.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["add", [\
+      ["npm:2.0.6", {\
+        "packageLocation": "../../.yarn/berry/cache/add-npm-2.0.6-c96b78d852-10c0.zip/node_modules/add/",\
+        "packageDependencies": [\
+          ["add", "npm:2.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2143,6 +2165,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hermes-estree", "npm:0.32.0"],\
           ["hermes-parser", "npm:0.32.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hex-to-rgba", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/hex-to-rgba-npm-2.0.1-89d1704044-10c0.zip/node_modules/hex-to-rgba/",\
+        "packageDependencies": [\
+          ["hex-to-rgba", "npm:2.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3424,11 +3455,15 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/add", "npm:2.0.3"],\
           ["@types/react", "npm:18.3.27"],\
+          ["add", "npm:2.0.6"],\
+          ["hex-to-rgba", "npm:2.0.1"],\
           ["react-native", "virtual:24eb5824dce2e6f960c50a5d98ee8ca4afd97a48b00e71df53e110c83bd9ad5ea60586d8a1d7b83349777f4ab39a954622a64dd7b1e83b4a0a6db30133dc5c1c#npm:0.83.1"],\
           ["react-native-blur-line", "workspace:."],\
           ["react-native-linear-gradient", "virtual:24eb5824dce2e6f960c50a5d98ee8ca4afd97a48b00e71df53e110c83bd9ad5ea60586d8a1d7b83349777f4ab39a954622a64dd7b1e83b4a0a6db30133dc5c1c#npm:2.8.3"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
+          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
+          ["yarn", "npm:1.22.22"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4161,6 +4196,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/yargs-parser-npm-21.1.1-8fdc003314-10c0.zip/node_modules/yargs-parser/",\
         "packageDependencies": [\
           ["yargs-parser", "npm:21.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yarn", [\
+      ["npm:1.22.22", {\
+        "packageLocation": "./.yarn/unplugged/yarn-npm-1.22.22-cb63c707fe/node_modules/yarn/",\
+        "packageDependencies": [\
+          ["yarn", "npm:1.22.22"]\
         ],\
         "linkType": "HARD"\
       }]\

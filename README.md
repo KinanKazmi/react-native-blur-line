@@ -54,14 +54,16 @@ import BlurLine from 'react-native-blur-line';
 />
 
 <BlurLine bottom />
+```
 
-<BlurLine rgbaColor={Colors.primary} />
+```tsx
+<BlurLine color={#FF8800} />
 
 <ScrollView>
   ...
 </ScrollView>
 
-<BlurLine bottom rgbaColor="rgba(0, 0, 0, 1)" />
+<BlurLine bottom color="rgba(0, 0, 0, 1)" />
 ```
 
 ## Props
@@ -69,5 +71,6 @@ import BlurLine from 'react-native-blur-line';
 | Prop      | Type      | Default Value                                                                               | Description                                                                                  |
 | --------- | --------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | bottom    | boolean   | false                                                                                       | If true, the gradient direction is inverted (fades out upwards) for the bottom of the screen |
-| rgbaColor | string    | "rgba(255,255,255,1)"                                                                       | The starting color of the blur. Should be the same as your background color.                 |
+| horizontal | boolean | false                                                                                        | If true, the blur line will be drawn for a horizontal list/view |
+| color | string    | "rgba(255,255,255,1)"                                                                       | The starting color of the blur. Should be the same as your background color.                 |
 | style     | ViewStyle | { width: '100%', height: 10, zIndex: 1 } with top: 10 or if bottom prop is true, bottom: 10 | Basically to override existing style and customize its usage as you like.                    |
